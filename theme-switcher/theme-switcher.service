@@ -1,0 +1,12 @@
+# Place file in ~/.config/systemd/user/theme-switcher.service
+
+[Unit]
+Description=Switch the Plasma theme
+After=plasma-workspace.target
+
+[Service]
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/bash /home/alligator/.theme-switcher/theme-switcher.sh
+
+[Install]
+WantedBy=plasma-workspace.target
