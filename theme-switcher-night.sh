@@ -2,7 +2,7 @@
 
 # Define the themes
 NIGHT_THEME="BreezeDark"
-WALLPAPERS_NIGHT="./Holmy_Night.jpg"
+WALLPAPERS_NIGHT="$HOME/theme-switcher/Holmy_Night.jpg"
 COLOR="#92aef1"
 DESIRED_THEME="$NIGHT_THEME"
 WALLPAPERS="$WALLPAPERS_NIGHT"

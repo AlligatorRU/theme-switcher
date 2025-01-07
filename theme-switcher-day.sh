@@ -2,7 +2,7 @@
 
 # Define the themes
 DAY_THEME="BreezeClassic"
-WALLPAPERS_DAY="./Holmy.jpg"
+WALLPAPERS_DAY="$HOME/theme-switcher/Holmy.jpg"
 COLOR="#f1c992"
 DESIRED_THEME="$DAY_THEME"
 WALLPAPERS="$WALLPAPERS_DAY"

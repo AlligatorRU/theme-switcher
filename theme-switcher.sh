@@ -3,8 +3,8 @@
 # Define the themes
 DAY_THEME="BreezeClassic"
 NIGHT_THEME="BreezeDark"
-WALLPAPERS_DAY="./Holmy.jpg"
-WALLPAPERS_NIGHT="./Holmy_Night.jpg"
+WALLPAPERS_DAY="$HOME/theme-switcher/Holmy.jpg"
+WALLPAPERS_NIGHT="$HOME/theme-switcher/Holmy_Night.jpg"
 
 # Get the current hour
 CURRENT_TIME="$(date +'%s')"
