@@ -3,8 +3,8 @@
 # Define the themes
 DAY_THEME="BreezeClassic"
 NIGHT_THEME="BreezeDark"
-WALLPAPERS_DAY="$HOME/theme-switcher/wallpapers/Holmy.jpg"
-WALLPAPERS_NIGHT="$HOME/theme-switcher.Holmy_Night.jpg"
+WALLPAPERS_DAY="$HOME/theme-switcher/Holmy.jpg"
+WALLPAPERS_NIGHT="$HOME/theme-switcher/Holmy_Night.jpg"
 COLOR_DAY="#f1c992"
 COLOR_NIGHT="#92aef1"
 
