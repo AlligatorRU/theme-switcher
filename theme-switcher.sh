@@ -3,8 +3,8 @@
 # Define the themes
 DAY_THEME="BreezeClassic"
 NIGHT_THEME="BreezeDark"
-WALLPAPERS_DAY="/home/alligator/Изображения/wallpapers/Holmy.jpg"
-WALLPAPERS_NIGHT="/home/alligator/Изображения/wallpapers/Holmy_Night.jpg"
+WALLPAPERS_DAY="./Holmy.jpg"
+WALLPAPERS_NIGHT="./Holmy_Night.jpg"
 
 # Get the current hour
 CURRENT_TIME="$(date +'%s')"
@@ -38,7 +38,7 @@ else
     plasma-apply-colorscheme "$DESIRED_THEME"
     plasma-apply-wallpaperimage $WALLPAPERS
     notify-send -a theme-switcher $DESIRED_THEME "успешно задана для использования в Plasma"
-    paplay /home/$USER/.theme-switcher/sound.wav
+    paplay ./sound.wav
     plasma-apply-colorscheme -a "$COLOR"
     plasma-apply-colorscheme -a "$COLOR"
 fi

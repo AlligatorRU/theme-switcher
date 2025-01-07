@@ -2,7 +2,7 @@
 
 # Define the themes
 DAY_THEME="BreezeClassic"
-WALLPAPERS_DAY="/home/alligator/Изображения/wallpapers/Holmy.jpg"
+WALLPAPERS_DAY="./Holmy.jpg"
 COLOR="#f1c992"
 DESIRED_THEME="$DAY_THEME"
 WALLPAPERS="$WALLPAPERS_DAY"
@@ -18,7 +18,7 @@ else
     plasma-apply-colorscheme "$DESIRED_THEME"
     plasma-apply-wallpaperimage $WALLPAPERS
     notify-send -a theme-switcher $DESIRED_THEME "успешно задана для использования в Plasma"
-    paplay /home/$USER/.theme-switcher/sound.wav
+    paplay ./sound.wav
     plasma-apply-colorscheme -a "$COLOR"
     plasma-apply-colorscheme -a "$COLOR"
 fi

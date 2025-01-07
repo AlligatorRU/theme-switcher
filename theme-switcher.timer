@@ -7,8 +7,8 @@ Description=Switch the Plasma theme
 #№OnBootSec=45
 OnStartupSec=6
 #OnUnitActiveSec=5min
-OnCalendar=*-*-* 9:00:05
-OnCalendar=*-*-* 14:05:05
+OnCalendar=*-*-* 9:45:05
+OnCalendar=*-*-* 16:45:05
 Unit=theme-switcher.service
 
 [Install]

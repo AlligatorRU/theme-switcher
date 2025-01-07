@@ -2,7 +2,7 @@
 
 # Define the themes
 NIGHT_THEME="BreezeDark"
-WALLPAPERS_NIGHT="/home/alligator/Изображения/wallpapers/Holmy_Night.jpg"
+WALLPAPERS_NIGHT="./Holmy_Night.jpg"
 COLOR="#92aef1"
 DESIRED_THEME="$NIGHT_THEME"
 WALLPAPERS="$WALLPAPERS_NIGHT"
@@ -18,7 +18,7 @@ else
     plasma-apply-colorscheme "$DESIRED_THEME"
     plasma-apply-wallpaperimage $WALLPAPERS
     notify-send -a theme-switcher $DESIRED_THEME "успешно задана для использования в Plasma"
-    paplay /home/$USER/.theme-switcher/sound.wav
+    paplay ./sound.wav
     plasma-apply-colorscheme -a "$COLOR"
     plasma-apply-colorscheme -a "$COLOR"
 fi
