@@ -1,6 +1,0 @@
-[Desktop Entry]
-Icon=/home/$USER/theme-switcher/theme-swither.png
-Name[ru_RU]=theme-switcher-day-night
-Name=theme-switcher-day-night
-Type=Link
-URL[$e]=file:/home/$USER/theme-switcher/theme-switcher-day-night.sh

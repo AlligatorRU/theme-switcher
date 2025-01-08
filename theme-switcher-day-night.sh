@@ -18,13 +18,13 @@ if [[ "$CURRENT_THEME" == "$DAY_THEME" ]]; then
     plasma-apply-colorscheme -a "$COLOR_NIGHT"
     plasma-apply-colorscheme -a "$COLOR_NIGHT"
     notify-send -a theme-switcher $NIGHT_THEME "успешно задана для использования в Plasma"
-    paplay /home/$USER/.theme-switcher/sound.wav
+    paplay ./sound.wav
     else
     plasma-apply-colorscheme "$DAY_THEME"
     plasma-apply-wallpaperimage $WALLPAPERS_DAY
     plasma-apply-colorscheme -a "$COLOR_DAY"
     plasma-apply-colorscheme -a "$COLOR_DAY"
     notify-send -a theme-switcher $DAY_THEME "успешно задана для использования в Plasma"
-    paplay /home/$USER/.theme-switcher/sound.wav
+    paplay ./sound.wav
 fi
 
